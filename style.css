@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: beige;
+}
+
 .container{
   width: 800px;
   margin: 20px auto;
   background-color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
 }
 
