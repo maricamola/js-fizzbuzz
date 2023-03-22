@@ -19,10 +19,23 @@ if (!(i % 15)) {
 //Scriviamo il testo nell'InnerHTML
 box.append(i)
 container.append(box)
-}
+};
+
+box.addEventListener('click',function(){
+  const text = document.createElement('text');
+
+  if(!(i % 15)){
+    box.append('Fizz')
+  }else if(!(i % 3) && i){
+    box.append('Fizz')
+  }else if(!(i % 5) && i){
+    box.append('BuzzFizz')
+  }
+})
 
 //box.append('Fizz')
-//box.append('Buzz')
+//box.append('Fizz')
+//box.append('BuzzFizz')
 
 
 
