@@ -20,8 +20,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: calc(100% / 10);
+  height: 60px;
   border: 1px solid black;
+}
+
+.orange{
+  background-color: orange;
 }
 
