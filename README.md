@@ -10,9 +10,9 @@ Applica stili differenti agli elementi aggiunti al DOM, a seconda che il valore 
 - Seleziona il container
 - Ad ogni ciclo creare un nuovo div
 - Dare la classe al box
+- Se multiplo di 3 e di 5 stampa "FizzBuzz"
 - Se multiplo di 3 stampa "Fizz"
 - Se multiplo di 5 stampa "Buzz"
-- Se multiplo di 3 e di 5 stampa "FizzBuzz"
 - Crea un container nel DOM
 - Aggiungere al container un elemento html con la stringa/numero da mostrare
 - Applica stili differenti agli elementi aggiunti, a seconda del valore

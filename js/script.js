@@ -11,31 +11,20 @@ box.classList.add('box')
 //Se multiplo di 3 stampa "Fizz"
 if (!(i % 15)) {
   box.classList.add('rose')
+  box.append('BuzzFizz')
 }else if (!(i % 3) && i){
   box.classList.add('orange')
+  box.append('Fizz')
 }else if (!(i % 5) && i){
   box.classList.add('yellow')
+  box.append('Buzz')
+}else{
+  //Scriviamo il numero nell'InnerHTML
+  box.append(i)
 }
-//Scriviamo il testo nell'InnerHTML
-box.append(i)
 container.append(box)
 };
 
-box.addEventListener('click',function(){
-  const text = document.createElement('text');
-
-  if(!(i % 15)){
-    box.append('Fizz')
-  }else if(!(i % 3) && i){
-    box.append('Fizz')
-  }else if(!(i % 5) && i){
-    box.append('BuzzFizz')
-  }
-})
-
-//box.append('Fizz')
-//box.append('Fizz')
-//box.append('BuzzFizz')
 
 
 
